@@ -1,0 +1,46 @@
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	background-color: lightyellow;
+  }
+  
+  h1 {
+	color: darkorange;
+  }
+  
+  input {
+	width: 50px;
+	text-align: center;
+	margin: 20px auto;
+	border: 2px solid darkorange;
+	border-radius: 4px;
+	padding: 8px;
+	font-size: larger;
+  }
+  
+  button {
+	background-color: lightblue;
+	border: none;
+	padding: 8px 14px;
+	border-radius: 4px;
+	cursor: pointer;
+	margin: 20px 10px;
+	font-size: larger;
+  }
+  
+  button:hover {
+	background-color: skyblue;
+  }
+  
+  #result {
+	font-size: larger;
+	color: darkorange;
+	margin: 20px 0;
+  }
+  
+  #previousGuesses {
+	font-size: smaller;
+	font-style: italic;
+	color: darkgray;
+	margin: 10px 0;
+  }
